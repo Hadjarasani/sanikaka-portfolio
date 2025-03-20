@@ -1,0 +1,22 @@
+.project-card {
+    height: 280px; /* Hauteur fixe */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Espace entre le titre et le bouton */
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Permet au bouton de rester en bas */
+.project-card .card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.project-card .btn-container {
+    margin-top: auto; /* Pousse le bouton vers le bas */
+}
+
